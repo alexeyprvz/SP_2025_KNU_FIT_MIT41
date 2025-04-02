@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\\u0423\u043D\u0438\u043A\\\u041A\u0443\u0440\u0441 4 #2\\\u0421\u0438\u0441\u0442\u0435\u043C\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F\\labs\\Lab2_Part1\\Lab2_Part1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{025FCD38-7EFA-4518-9FCA-518399FDF2A8}|1_1_1\\1_1_1.csproj|d:\\\u0443\u043D\u0438\u043A\\\u043A\u0443\u0440\u0441 4 #2\\\u0441\u0438\u0441\u0442\u0435\u043C\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F\\labs\\lab2_part1\\lab2_part1\\1_1_1\\1_1_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{025FCD38-7EFA-4518-9FCA-518399FDF2A8}|1_1_1\\1_1_1.csproj|solutionrelative:1_1_1\\1_1_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC5C9BF7-8DAD-40B0-B798-FC204A8AC10D}|1_1\\1_1.csproj|d:\\\u0443\u043D\u0438\u043A\\\u043A\u0443\u0440\u0441 4 #2\\\u0441\u0438\u0441\u0442\u0435\u043C\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F\\labs\\lab2_part1\\lab2_part1\\1_1\\1_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC5C9BF7-8DAD-40B0-B798-FC204A8AC10D}|1_1\\1_1.csproj|solutionrelative:1_1\\1_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{87E5D650-E32A-4CB3-AC6B-AFC15E125487}|2_2\\2_2-5.csproj|d:\\\u0443\u043D\u0438\u043A\\\u043A\u0443\u0440\u0441 4 #2\\\u0441\u0438\u0441\u0442\u0435\u043C\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F\\labs\\lab2_part1\\lab2_part1\\2_2\\2_2-5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87E5D650-E32A-4CB3-AC6B-AFC15E125487}|2_2\\2_2-5.csproj|solutionrelative:2_2\\2_2-5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,8 +22,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "1_1_1.cs",
+              "DocumentMoniker": "D:\\\u0423\u043D\u0438\u043A\\\u041A\u0443\u0440\u0441 4 #2\\\u0421\u0438\u0441\u0442\u0435\u043C\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F\\labs\\Lab2_Part1\\Lab2_Part1\\1_1_1\\1_1_1.cs",
+              "RelativeDocumentMoniker": "1_1_1\\1_1_1.cs",
+              "ToolTip": "D:\\\u0423\u043D\u0438\u043A\\\u041A\u0443\u0440\u0441 4 #2\\\u0421\u0438\u0441\u0442\u0435\u043C\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F\\labs\\Lab2_Part1\\Lab2_Part1\\1_1_1\\1_1_1.cs",
+              "RelativeToolTip": "1_1_1\\1_1_1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T23:40:28.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "1_1.cs",
+              "DocumentMoniker": "D:\\\u0423\u043D\u0438\u043A\\\u041A\u0443\u0440\u0441 4 #2\\\u0421\u0438\u0441\u0442\u0435\u043C\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F\\labs\\Lab2_Part1\\Lab2_Part1\\1_1\\1_1.cs",
+              "RelativeDocumentMoniker": "1_1\\1_1.cs",
+              "ToolTip": "D:\\\u0423\u043D\u0438\u043A\\\u041A\u0443\u0440\u0441 4 #2\\\u0421\u0438\u0441\u0442\u0435\u043C\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F\\labs\\Lab2_Part1\\Lab2_Part1\\1_1\\1_1.cs",
+              "RelativeToolTip": "1_1\\1_1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T23:40:19.778Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -25,18 +59,14 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "2_2-5.cs",
               "DocumentMoniker": "D:\\\u0423\u043D\u0438\u043A\\\u041A\u0443\u0440\u0441 4 #2\\\u0421\u0438\u0441\u0442\u0435\u043C\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F\\labs\\Lab2_Part1\\Lab2_Part1\\2_2\\2_2-5.cs",
               "RelativeDocumentMoniker": "2_2\\2_2-5.cs",
               "ToolTip": "D:\\\u0423\u043D\u0438\u043A\\\u041A\u0443\u0440\u0441 4 #2\\\u0421\u0438\u0441\u0442\u0435\u043C\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F\\labs\\Lab2_Part1\\Lab2_Part1\\2_2\\2_2-5.cs",
               "RelativeToolTip": "2_2\\2_2-5.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAowCYAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowFMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T22:06:58.36Z",
               "EditorCaption": ""
