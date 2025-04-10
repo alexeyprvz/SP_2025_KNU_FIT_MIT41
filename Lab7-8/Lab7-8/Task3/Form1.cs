@@ -157,5 +157,10 @@ namespace Task3
                 MessageBox.Show("Помилка видалення: " + ex.Message);
             }
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

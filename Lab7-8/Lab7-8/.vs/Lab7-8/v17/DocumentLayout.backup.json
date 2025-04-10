@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\\u0423\u043D\u0438\u043A\\\u041A\u0443\u0440\u0441 4 #2\\\u0421\u0438\u0441\u0442\u0435\u043C\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F\\labs\\Lab7-8\\Lab7-8\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BE81813B-960B-4C19-B3C0-D1D3C1D5BE71}|Task2\\Task2.csproj|d:\\\u0443\u043D\u0438\u043A\\\u043A\u0443\u0440\u0441 4 #2\\\u0441\u0438\u0441\u0442\u0435\u043C\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F\\labs\\lab7-8\\lab7-8\\task2\\task2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE81813B-960B-4C19-B3C0-D1D3C1D5BE71}|Task2\\Task2.csproj|solutionrelative:task2\\task2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9D4BA947-B161-4ECC-8D6C-DAAD1CB1974A}|Task3\\Task3.csproj|d:\\\u0443\u043D\u0438\u043A\\\u043A\u0443\u0440\u0441 4 #2\\\u0441\u0438\u0441\u0442\u0435\u043C\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F\\labs\\lab7-8\\lab7-8\\task3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D4BA947-B161-4ECC-8D6C-DAAD1CB1974A}|Task3\\Task3.csproj|solutionrelative:task3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C00696D7-F8E4-4B65-8D49-54D1BF939FBD}|Task1\\Task1.csproj|d:\\\u0443\u043D\u0438\u043A\\\u043A\u0443\u0440\u0441 4 #2\\\u0441\u0438\u0441\u0442\u0435\u043C\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F\\labs\\lab7-8\\lab7-8\\task1\\task1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C00696D7-F8E4-4B65-8D49-54D1BF939FBD}|Task1\\Task1.csproj|solutionrelative:task1\\task1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D4BA947-B161-4ECC-8D6C-DAAD1CB1974A}|Task3\\Task3.csproj|d:\\\u0443\u043D\u0438\u043A\\\u043A\u0443\u0440\u0441 4 #2\\\u0441\u0438\u0441\u0442\u0435\u043C\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F\\labs\\lab7-8\\lab7-8\\task3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9D4BA947-B161-4ECC-8D6C-DAAD1CB1974A}|Task3\\Task3.csproj|solutionrelative:task3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE81813B-960B-4C19-B3C0-D1D3C1D5BE71}|Task2\\Task2.csproj|d:\\\u0443\u043D\u0438\u043A\\\u043A\u0443\u0440\u0441 4 #2\\\u0441\u0438\u0441\u0442\u0435\u043C\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F\\labs\\lab7-8\\lab7-8\\task2\\task2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE81813B-960B-4C19-B3C0-D1D3C1D5BE71}|Task2\\Task2.csproj|solutionrelative:task2\\task2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C00696D7-F8E4-4B65-8D49-54D1BF939FBD}|Task1\\Task1.csproj|d:\\\u0443\u043D\u0438\u043A\\\u043A\u0443\u0440\u0441 4 #2\\\u0441\u0438\u0441\u0442\u0435\u043C\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F\\labs\\lab7-8\\lab7-8\\task1\\task1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C00696D7-F8E4-4B65-8D49-54D1BF939FBD}|Task1\\Task1.csproj|solutionrelative:task1\\task1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,39 +38,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\\u0423\u043D\u0438\u043A\\\u041A\u0443\u0440\u0441 4 #2\\\u0421\u0438\u0441\u0442\u0435\u043C\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F\\labs\\Lab7-8\\Lab7-8\\Task3\\Form1.cs",
+              "RelativeDocumentMoniker": "Task3\\Form1.cs",
+              "ToolTip": "D:\\\u0423\u043D\u0438\u043A\\\u041A\u0443\u0440\u0441 4 #2\\\u0421\u0438\u0441\u0442\u0435\u043C\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F\\labs\\Lab7-8\\Lab7-8\\Task3\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Task3\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T12:07:41.638Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\\u0423\u043D\u0438\u043A\\\u041A\u0443\u0440\u0441 4 #2\\\u0421\u0438\u0441\u0442\u0435\u043C\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F\\labs\\Lab7-8\\Lab7-8\\Task3\\Form1.cs",
               "RelativeDocumentMoniker": "Task3\\Form1.cs",
               "ToolTip": "D:\\\u0423\u043D\u0438\u043A\\\u041A\u0443\u0440\u0441 4 #2\\\u0421\u0438\u0441\u0442\u0435\u043C\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F\\labs\\Lab7-8\\Lab7-8\\Task3\\Form1.cs",
               "RelativeToolTip": "Task3\\Form1.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAAwKIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T09:30:33.464Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Task2.cs",
               "DocumentMoniker": "D:\\\u0423\u043D\u0438\u043A\\\u041A\u0443\u0440\u0441 4 #2\\\u0421\u0438\u0441\u0442\u0435\u043C\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F\\labs\\Lab7-8\\Lab7-8\\Task2\\Task2.cs",
               "RelativeDocumentMoniker": "Task2\\Task2.cs",
               "ToolTip": "D:\\\u0423\u043D\u0438\u043A\\\u041A\u0443\u0440\u0441 4 #2\\\u0421\u0438\u0441\u0442\u0435\u043C\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F\\labs\\Lab7-8\\Lab7-8\\Task2\\Task2.cs",
               "RelativeToolTip": "Task2\\Task2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwBwAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T07:58:12.967Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Task1.cs",
               "DocumentMoniker": "D:\\\u0423\u043D\u0438\u043A\\\u041A\u0443\u0440\u0441 4 #2\\\u0421\u0438\u0441\u0442\u0435\u043C\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F\\labs\\Lab7-8\\Lab7-8\\Task1\\Task1.cs",
               "RelativeDocumentMoniker": "Task1\\Task1.cs",
               "ToolTip": "D:\\\u0423\u043D\u0438\u043A\\\u041A\u0443\u0440\u0441 4 #2\\\u0421\u0438\u0441\u0442\u0435\u043C\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F\\labs\\Lab7-8\\Lab7-8\\Task1\\Task1.cs",
               "RelativeToolTip": "Task1\\Task1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T07:58:02.125Z",
               "EditorCaption": ""

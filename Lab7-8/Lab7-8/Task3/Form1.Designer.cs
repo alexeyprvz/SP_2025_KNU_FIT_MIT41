@@ -23,105 +23,117 @@
 
         private void InitializeComponent()
         {
-            this.textBoxPath = new System.Windows.Forms.TextBox();
-            this.buttonBack = new System.Windows.Forms.Button();
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.columnHeader1 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader2 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader3 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader4 = new System.Windows.Forms.ColumnHeader();
-            this.textBoxName = new System.Windows.Forms.TextBox();
-            this.buttonCreate = new System.Windows.Forms.Button();
-            this.buttonDelete = new System.Windows.Forms.Button();
-            this.treeView1 = new System.Windows.Forms.TreeView();
-            this.SuspendLayout();
+            textBoxPath = new TextBox();
+            buttonBack = new Button();
+            listView1 = new ListView();
+            columnHeader1 = new ColumnHeader();
+            columnHeader2 = new ColumnHeader();
+            columnHeader3 = new ColumnHeader();
+            columnHeader4 = new ColumnHeader();
+            textBoxName = new TextBox();
+            buttonCreate = new Button();
+            buttonDelete = new Button();
+            treeView1 = new TreeView();
+            SuspendLayout();
             // 
             // textBoxPath
             // 
-            this.textBoxPath.Location = new System.Drawing.Point(270, 12);
-            this.textBoxPath.Size = new System.Drawing.Size(460, 22);
-            this.textBoxPath.ReadOnly = true;
+            textBoxPath.Location = new Point(270, 12);
+            textBoxPath.Name = "textBoxPath";
+            textBoxPath.ReadOnly = true;
+            textBoxPath.Size = new Size(460, 23);
+            textBoxPath.TabIndex = 1;
             // 
             // buttonBack
             // 
-            this.buttonBack.Location = new System.Drawing.Point(736, 12);
-            this.buttonBack.Size = new System.Drawing.Size(60, 23);
-            this.buttonBack.Text = "Back";
-            this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
-            // 
-            // treeView1
-            // 
-            this.treeView1.Location = new System.Drawing.Point(12, 12);
-            this.treeView1.Size = new System.Drawing.Size(250, 400);
-            this.treeView1.BeforeExpand += new System.Windows.Forms.TreeViewCancelEventHandler(this.treeView1_BeforeExpand);
-            this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
+            buttonBack.Location = new Point(736, 12);
+            buttonBack.Name = "buttonBack";
+            buttonBack.Size = new Size(60, 23);
+            buttonBack.TabIndex = 2;
+            buttonBack.Text = "Back";
+            buttonBack.Click += buttonBack_Click;
             // 
             // listView1
             // 
-            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader1,
-            this.columnHeader2,
-            this.columnHeader3,
-            this.columnHeader4});
-            this.listView1.Location = new System.Drawing.Point(270, 40);
-            this.listView1.Size = new System.Drawing.Size(526, 370);
-            this.listView1.View = System.Windows.Forms.View.Details;
-            this.listView1.FullRowSelect = true;
-            this.listView1.DoubleClick += new System.EventHandler(this.listView1_DoubleClick);
+            listView1.Columns.AddRange(new ColumnHeader[] { columnHeader1, columnHeader2, columnHeader3, columnHeader4 });
+            listView1.FullRowSelect = true;
+            listView1.Location = new Point(270, 40);
+            listView1.Name = "listView1";
+            listView1.Size = new Size(526, 370);
+            listView1.TabIndex = 3;
+            listView1.UseCompatibleStateImageBehavior = false;
+            listView1.View = View.Details;
+            listView1.DoubleClick += listView1_DoubleClick;
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "Name";
-            this.columnHeader1.Width = 200;
+            columnHeader1.Text = "Name";
+            columnHeader1.Width = 200;
             // 
             // columnHeader2
             // 
-            this.columnHeader2.Text = "Size";
-            this.columnHeader2.Width = 80;
+            columnHeader2.Text = "Size";
+            columnHeader2.Width = 80;
             // 
             // columnHeader3
             // 
-            this.columnHeader3.Text = "Extension";
-            this.columnHeader3.Width = 80;
+            columnHeader3.Text = "Extension";
+            columnHeader3.Width = 80;
             // 
             // columnHeader4
             // 
-            this.columnHeader4.Text = "Created";
-            this.columnHeader4.Width = 150;
+            columnHeader4.Text = "Created";
+            columnHeader4.Width = 150;
             // 
             // textBoxName
             // 
-            this.textBoxName.Location = new System.Drawing.Point(270, 420);
-            this.textBoxName.Size = new System.Drawing.Size(200, 22);
+            textBoxName.Location = new Point(270, 420);
+            textBoxName.Name = "textBoxName";
+            textBoxName.Size = new Size(200, 23);
+            textBoxName.TabIndex = 4;
             // 
             // buttonCreate
             // 
-            this.buttonCreate.Location = new System.Drawing.Point(476, 420);
-            this.buttonCreate.Size = new System.Drawing.Size(100, 23);
-            this.buttonCreate.Text = "Create";
-            this.buttonCreate.Click += new System.EventHandler(this.buttonCreate_Click);
+            buttonCreate.Location = new Point(476, 420);
+            buttonCreate.Name = "buttonCreate";
+            buttonCreate.Size = new Size(100, 23);
+            buttonCreate.TabIndex = 5;
+            buttonCreate.Text = "Create";
+            buttonCreate.Click += buttonCreate_Click;
             // 
             // buttonDelete
             // 
-            this.buttonDelete.Location = new System.Drawing.Point(582, 420);
-            this.buttonDelete.Size = new System.Drawing.Size(100, 23);
-            this.buttonDelete.Text = "Delete";
-            this.buttonDelete.Click += new System.EventHandler(this.buttonDelete_Click);
+            buttonDelete.Location = new Point(582, 420);
+            buttonDelete.Name = "buttonDelete";
+            buttonDelete.Size = new Size(100, 23);
+            buttonDelete.TabIndex = 6;
+            buttonDelete.Text = "Delete";
+            buttonDelete.Click += buttonDelete_Click;
+            // 
+            // treeView1
+            // 
+            treeView1.Location = new Point(12, 12);
+            treeView1.Name = "treeView1";
+            treeView1.Size = new Size(250, 400);
+            treeView1.TabIndex = 0;
+            treeView1.BeforeExpand += treeView1_BeforeExpand;
+            treeView1.AfterSelect += treeView1_AfterSelect;
             // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(808, 460);
-            this.Controls.Add(this.treeView1);
-            this.Controls.Add(this.textBoxPath);
-            this.Controls.Add(this.buttonBack);
-            this.Controls.Add(this.listView1);
-            this.Controls.Add(this.textBoxName);
-            this.Controls.Add(this.buttonCreate);
-            this.Controls.Add(this.buttonDelete);
-            this.Name = "Form1";
-            this.Text = "FileManagerApp";
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            ClientSize = new Size(808, 460);
+            Controls.Add(treeView1);
+            Controls.Add(textBoxPath);
+            Controls.Add(buttonBack);
+            Controls.Add(listView1);
+            Controls.Add(textBoxName);
+            Controls.Add(buttonCreate);
+            Controls.Add(buttonDelete);
+            Name = "Form1";
+            Text = "FileManagerApp";
+            Load += Form1_Load;
+            ResumeLayout(false);
+            PerformLayout();
         }
     }
 }

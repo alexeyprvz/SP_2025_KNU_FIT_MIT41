@@ -7,48 +7,67 @@ class Program
     {
         Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-        Console.Write("Введіть шлях до кореневої директорії для пошуку: ");
-        string rootPath = Console.ReadLine();
+        Console.Write("Введіть ім'я файлу для пошуку (наприклад, notes.txt): ");
+        string fileNameToSearch = Console.ReadLine();
 
-        Console.Write("Введіть ім'я файлу для пошуку (наприклад, file.txt): ");
-        string fileName = Console.ReadLine();
-
-        if (Directory.Exists(rootPath))
+        if (string.IsNullOrWhiteSpace(fileNameToSearch))
         {
-            DirectoryInfo dir = new DirectoryInfo(rootPath);
+            Console.WriteLine("Ім’я файлу не може бути порожнім.");
+            return;
+        }
+
+        string[] drives = Directory.GetLogicalDrives(); 
+
+        Console.WriteLine("\nПошук виконується. Зачекайте...\n");
+
+        int foundCount = 0;
+
+        foreach (string drive in drives)
+        {
             try
             {
-                FileInfo[] foundFiles = dir.GetFiles(fileName, SearchOption.AllDirectories);
-
-                if (foundFiles.Length == 0)
-                {
-                    Console.WriteLine("Файли не знайдено.");
-                }
-                else
-                {
-                    Console.WriteLine($"\nЗнайдено {foundFiles.Length} файл(ів):\n");
-                    foreach (FileInfo file in foundFiles)
-                    {
-                        Console.WriteLine("Ім'я файлу: " + file.Name);
-                        Console.WriteLine("Повний шлях: " + file.FullName);
-                        Console.WriteLine("Розмір (байт): " + file.Length);
-                        Console.WriteLine("Дата створення: " + file.CreationTime);
-                        Console.WriteLine("Атрибути: " + file.Attributes);
-                        Console.WriteLine(new string('-', 50));
-                    }
-                }
+                SearchFiles(drive, fileNameToSearch, ref foundCount);
             }
-            catch (UnauthorizedAccessException e)
+            catch (Exception ex)
             {
-                Console.WriteLine("Доступ до деяких папок заборонено: " + e.Message);
+                Console.WriteLine($"Помилка доступу до {drive}: {ex.Message}");
             }
         }
-        else
+
+        if (foundCount == 0)
         {
-            Console.WriteLine("Вказану директорію не знайдено.");
+            Console.WriteLine("Файли не знайдено.");
         }
 
         Console.WriteLine("\nНатисніть будь-яку клавішу для завершення...");
         Console.ReadKey();
+    }
+
+    static void SearchFiles(string directory, string fileName, ref int foundCount)
+    {
+        try
+        {
+            foreach (var file in Directory.GetFiles(directory, "*", SearchOption.TopDirectoryOnly))
+            {
+                if (string.Equals(Path.GetFileName(file), fileName, StringComparison.OrdinalIgnoreCase))
+                {
+                    FileInfo info = new FileInfo(file);
+                    Console.WriteLine("Знайдено файл:");
+                    Console.WriteLine("Ім'я файлу: " + info.Name);
+                    Console.WriteLine("Повний шлях: " + info.FullName);
+                    Console.WriteLine("Розмір (байт): " + info.Length);
+                    Console.WriteLine("Дата створення: " + info.CreationTime);
+                    Console.WriteLine("Атрибути: " + info.Attributes);
+                    Console.WriteLine(new string('-', 50));
+                    foundCount++;
+                }
+            }
+
+            foreach (var dir in Directory.GetDirectories(directory))
+            {
+                SearchFiles(dir, fileName, ref foundCount); // рекурсивно шукаємо в підкаталогах
+            }
+        }
+        catch { /* Ігноруємо помилки доступу */ }
     }
 }
