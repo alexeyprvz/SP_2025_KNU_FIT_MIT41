@@ -13,7 +13,7 @@
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
+        #region Windows Form Designer code
 
         private void InitializeComponent()
         {
